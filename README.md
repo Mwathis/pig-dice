@@ -10,3 +10,11 @@ This is a game where two users can play against each other,such that each turn, 
 3. If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.
 
 The first player to score 100 or more points wins.
+
+## Set up
+```
+git clone https://github.com/Mwathis/pig-dice.git
+```
+
+## Link to live Site
+You can find the site [here](https://github.com/Mwathis/pig-dice)
