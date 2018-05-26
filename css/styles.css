@@ -1,0 +1,58 @@
+/* Section1 styles start*/
+#box {
+  background-image: linear-gradient(to right top, #64f9de, #59f3bb, #65eb91, #7ce160, #98d520);
+  height: 300px;
+}
+#dice {
+  color: white;
+  font-family: 'Skranji', cursive;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 40px;
+}
+#dice2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 85px;
+  border-radius: 50%;
+}
+#dice1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 75px;
+  border-radius: 50%;
+}
+/* Section2 styles end*/
+
+/* Section1 styles start*/
+#top1 {
+  padding-top: 50px;
+  text-align: center;
+}
+.player1 {
+  border-style: solid;
+  border-color: #4FCA4B;
+  border-radius: 10px;
+  height: 150px;
+}
+#buttons {
+  margin:10px;
+}
+#total1{
+  padding-left: 10px;
+}
+#score {
+  padding-top: 100px;
+  padding-left: 50px;
+}
+.player2 {
+  border-style: solid;
+  border-color: #70DFC6;
+  border-radius: 10px;
+  height: 150px;
+}
+#total2 {
+  padding-left: 10px;
+}
