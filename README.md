@@ -17,4 +17,4 @@ git clone https://github.com/Mwathis/pig-dice.git
 ```
 
 ## Link to live Site
-You can find the site [here](https://github.com/Mwathis/pig-dice)
+You can find the site [here](https://mwathis.github.io/pig-dice/)
