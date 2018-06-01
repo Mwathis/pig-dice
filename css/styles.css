@@ -24,9 +24,35 @@
   height: 75px;
   border-radius: 50%;
 }
+/* Section1 styles end*/
+
+/* Section2 styles start*/
+.box1 {
+  margin-top: 25px;
+  margin-left: 100px;
+}
+.btn-primary {
+  border-radius: 10px;
+  margin-left: 450px;
+  margin-bottom: 25px;
+}
 /* Section2 styles end*/
 
-/* Section1 styles start*/
+/* Section3 styles start*/
+#play {
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #34CB39;
+}
+#play:hover {
+  color: white;
+  background-color: #48CE9D;
+}
+.box2 {
+  margin-bottom: 40px;
+}
 #top1 {
   padding-top: 50px;
   text-align: center;
@@ -35,10 +61,22 @@
   border-style: solid;
   border-color: #4FCA4B;
   border-radius: 10px;
-  height: 150px;
+  height: 200px;
 }
-#buttons {
+#foo {
+  padding-left: 10px;
+}
+#player1-roll {
   margin:10px;
+}
+#player1-hold {
+  margin: 10px;
+}
+#player2-roll {
+  margin:10px;
+}
+#player2-hold {
+  margin: 10px;
 }
 #total1{
   padding-left: 10px;
@@ -51,8 +89,9 @@
   border-style: solid;
   border-color: #70DFC6;
   border-radius: 10px;
-  height: 150px;
+  height: 200px;
 }
 #total2 {
   padding-left: 10px;
 }
+/* Section3 styles end*/
