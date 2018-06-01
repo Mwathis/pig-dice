@@ -20,38 +20,59 @@
       <div class="col-sm-12 box1">
         <p>Ok,just before you and your partner start to play,here are a couple of instructions to follow:</p>
         <ol>
+          <li>Input your names on the form section.</li>
           <li>Hit the play button once both of you are ready to play.</li>
           <li>If the Player 1 rolls a 1, they score nothing and it becomes the next player's turn.</li>
           <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
           <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
         </ol>
         <p>The First Player to score 100 points wins the game.</p>
+        <button type="button" class="btn btn-primary">Enjoy the Game</button>
       </div>
     </div>
   </div>
-  <div class="container-fluid box2">
-    <div>
-      <button id="play">Let's Play!</button>
+
+  <div class="container-fluid player-info">
+    <div class="jumbotron">
+        <form id="player-1">
+          <div class="form-group">
+            <label for="player1Name">Player 1:</label>
+            <input required class="player1Name form-control" type="text" placeholder="Input Your Name">
+          </div>
+        </form>
+        <form id="player-2">
+          <div class="form-group">
+            <label for="player2Name">Player 2:</label>
+            <input required class="player2Name form-control" type="text" placeholder="Input Your Name">
+          </div>
+        </form>
+        <button id="start" class="btn-success btn">Play!</button>
     </div>
+  </div>
+
+  <div class="container-fluid player-input">
     <div class="row row1">
       <div class="col-sm-4">
-        <p id="top1">Player 1</p>
+        <p id="top1">Player 1:<span id="player1Name"></span></p>
         <div class="player1">
-          <button type="submit" id="buttons">Roll</button>
-          <p id="total1">Your Total:</p>
-          <button type="submit" id="buttons">Hold</button>
+          <button type="submit" id="player1-roll">Roll</button>
+          <p id="foo">Your Roll:<span id="die1-roll"></span></p>
+          <p id="foo">Your Total:<span id="player1-total"></span></p>
+          <button id="player1-hold">Hold</button>
         </div>
       </div>
       <div class="col-sm-4" id="score">
-        <p>Player1 Score:</p>
-        <p>Player2 Score:</p>
+        <p>Player1 Score:<span id="player1-score"></span></p>
+        <p>Player2 Score:<span id="player2-score"></span></p>
+        <button class="btn-success btn" id="play-again">Play Again!</button>
       </div>
       <div class="col-sm-4">
-        <p id="top1">Player 2</p>
+        <p id="top1">Player 2:<span id="player2Name"></span></p>
         <div class="player2">
-          <button type="submit" id="buttons">Roll</button>
-          <p id="total2">Your Total:</p>
-          <button type="submit" id="buttons">Hold</button>
+          <button type="submit" id="player2-roll">Roll</button>
+          <p id="foo">Your Roll:<span id="die2-roll"></span></p>
+          <p id="foo">Your Total:<span id="player2-total"></span></p>
+          <button id="player2-hold">Hold</button>
         </div>
       </div>
     </div>
